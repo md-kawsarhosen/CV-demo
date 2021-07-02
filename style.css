@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:white;
+}
+.container{
+    max-width:1050px;
+    background-image: linear-gradient(to bottom,#81ecec,#addddd62);
+    background-repeat:no-repeat;
+    margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#191919e3;
+}
+p{
+    color:rgba(0, 0, 0, 0.877);
+    line-height:25px;
+}
+.clear{
+    clear:both;
+}
+hr{
+    max-width:95%;
+    border:1px solid black;
+    margin: 20px auto;
+}
+/*---------start header section---------- */
+header{
+    margin:30px;
+    padding-top:20px;
+}
+.profile-image{
+    width:100px;
+    height:120px;
+    border: 3px solid white;
+    border-radius:50%;
+    float:left;
+}
+.header-bio{
+    float:left;
+    padding:30px;
+}
+.header-bio h3{
+    color:#393939;
+}
+
+.header-contact{
+    float:right;
+    padding: 30px 0 30px;
+}
+.header-contact a{
+    text-decoration:none;
+    color:#292929;
+    font-weight:500;
+    line-height:20px;
+}
+.header-contact a:hover{
+    color:black; 
+}
+/*---------end header section---------- */
+/*---------start profila section---------- */
+.content{
+    padding:20px;
+}
+.left-div{
+    width:30%;
+    float:left;
+}
+.left-div h1{
+    margin: 0 0 0 30px;
+}
+.right-div{
+    width:70%;
+    float:left;
+}
+.right-div ul li{
+    line-height:25px;
+}
+/*---------end profil section---------- */
+/*---------start skill-education section---------- */
+.left-div2{
+    width:50%;
+    float:left;
+    margin-left:100px;
+}
+.left-div2 h1{
+    margin-bottom:10px;
+}
+.left-div2 ul li{
+    line-height:25px;
+    list-style:none;
+}
+.rigth-div2{
+    width:50%;
+    float:left;
+    margin-right:100px;
+}
+.right-div2 h1{
+    margin-bottom:10px;
+}
+.right-div2 ul li{
+    line-height:20px;
+    list-style:none;
+}
+/*---------end skill-education section---------- */
+/*---------start mainend section---------- */
+.left-div3{
+    width:33%;
+    float:left;
+    margin-left:55px;
+}
+.left-div3 h1{
+    margin-bottom:10px;
+}
+.left-div3 ul li{
+    line-height:25px;
+    list-style:none;
+}
+.center-div3{
+    width:33%;
+    float:left;
+    margin-left:31px;
+}
+.center-div3 h1{
+    margin-bottom:10px;
+}
+.center-div3 ul li{
+    line-height:25px;
+    list-style:none;
+}
+.right-div3{
+    width:33%;
+    float:left;
+    margin-left:-80px;
+}
+.right-div3 h1{
+    margin-bottom:10px;
+}
+.right-div3 ul li{
+    line-height:25px;
+    list-style:none;
+}
+/*---------end mainend section---------- */
+/*---------start footer section---------- */
+.footer{
+    background-color:#50686862;
+    text-align:center;
+    padding:20px;
+}
+.footer a{
+    text-decoration:none;
+    margin:20px;
+}
+.footer a img{
+    width:50px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.footer a img:hover{
+    box-shadow: 0px 0px 20px white;
+}
+/*---------end footer section---------- */
